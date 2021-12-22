@@ -16,7 +16,7 @@ int main(){
     for(int i=0;i<c;i++){
         a = int(texto[i]);
         b = int(shift[i]);
-        media = ((a-96)+(b-b))+97;
+        media = ((a)+(b))-97;
 
         if((media)>=123){
             media = media-26;
