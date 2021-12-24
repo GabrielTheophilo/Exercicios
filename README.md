@@ -21,3 +21,6 @@ Algoritmos de geração do número de PI
 
 4 - Algoritmos de Ordenação:
 Bubblesort
+
+5 - Algoritmos de procura de padrões em substrings: 
+Algoritmo "ingênuo"
