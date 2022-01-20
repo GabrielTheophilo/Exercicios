@@ -12,7 +12,7 @@
    - [Vigenère Cypher](https://github.com/GabrielTheophilo/Exercicios/tree/main/vigenere_cypher)
    - [Altbash](https://github.com/GabrielTheophilo/Exercicios/tree/main/altbash)
 
-3. Matematical expressions:
+3. Mathematical expressions:
    - [Fibonacci](https://github.com/GabrielTheophilo/Exercicios/tree/main/fibonacci)
    - [Fatorial Recursivo](https://github.com/GabrielTheophilo/Exercicios/tree/main/fatorial_recursive)
    - [Prime](https://github.com/GabrielTheophilo/Exercicios/tree/main/prime)
