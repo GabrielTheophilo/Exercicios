@@ -48,11 +48,25 @@ def decypher(cyphertext, shift):
         i += 1
     return g
 
+choice = str(input("Do you want to code or decode the Caesar Cypher? ")).lower()
+if(choice=="code"):
+    plaintext = str(input("Insert the text: ").lower())
+    shift = int(input("Insert the shift: "))
+    cy = split(plaintext)
+    cyphertext =  cypher(cy, shift)
+    print(f"CYPHERTEXT = {cyphertext}")
+elif(choice=="decode"):
+    text = str(input("Text to decode: "))
+    shift = int(input("Shift: "))
+    a = decypher(text, shift)
+    print(f"DECYPHEREDTEXT = {a}")
+else:
+    plaintext = str(input("Insert the text: ").lower())
+    shift = int(input("Insert the shift: "))
+    cy = split(plaintext)
+    cyphertext =  cypher(cy, shift)
+    print(f"CYPHERTEXT = {cyphertext}")
+    a = decypher(cyphertext, shift)
+    print(f"DECYPHEREDTEXT = {a}")
 
-plaintext = str(input("Insert the text: ").lower())
-shift = int(input("Insert the shift: "))
-cy = split(plaintext)
-cyphertext =  cypher(cy, shift)
-a = decypher(cyphertext, shift)
-print(f"CYPHERTEXT = {cyphertext}")
-print(f"DECYPHEREDTEXT = {a}")
+
