@@ -11,6 +11,7 @@ while $i<$num do
     puts "buzz"
     $i+=1
   else
+    puts $i
     $i+=1
   end
 end
