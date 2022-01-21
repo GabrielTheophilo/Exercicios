@@ -17,6 +17,7 @@ public function main() {
             i+=1;
         }
         else{
+            io:println(i);
             i+=1;
         }
     }
