@@ -22,4 +22,4 @@
    - [Bubblesort](https://github.com/GabrielTheophilo/Exercicios/tree/main/bubblesort)
 
 5. [Substring search algorithms](https://en.wikipedia.org/wiki/String-searching_algorithm):
-   - [Procura](https://github.com/GabrielTheophilo/Exercicios/tree/main/substring%20matching)
+   - [Search](https://github.com/GabrielTheophilo/Exercicios/tree/main/substring%20matching)
