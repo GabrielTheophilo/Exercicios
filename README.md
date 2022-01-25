@@ -14,9 +14,9 @@
 
 3. Mathematical expressions:
    - [Fibonacci](https://github.com/GabrielTheophilo/Exercicios/tree/main/fibonacci)
-   - [Fatorial Recursivo](https://github.com/GabrielTheophilo/Exercicios/tree/main/fatorial_recursive)
+   - [Recursive Factorial](https://github.com/GabrielTheophilo/Exercicios/tree/main/fatorial_recursive)
    - [Prime](https://github.com/GabrielTheophilo/Exercicios/tree/main/prime)
-   - [Algoritmos de geração do número de PI](https://github.com/GabrielTheophilo/Exercicios/tree/main/Pi)
+   - [PI number generating algorithms](https://github.com/GabrielTheophilo/Exercicios/tree/main/Pi)
 
 4. [Sorting algorithms](https://en.wikipedia.org/wiki/Sorting_algorithm):
    - [Bubblesort](https://github.com/GabrielTheophilo/Exercicios/tree/main/bubblesort)
