@@ -1,6 +1,6 @@
-<h1 align="center"> Vigenère Cipher </h1>
-<p align="center">  </p>
+<h1 align="center">Vigenère Cipher</h1>
 
-A cifra de Vigenère é uma cifra polialfabética baseada em uma série de [cifras de César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar). Esta forma de encriptar textos consiste em utilizar uma tabela com 26 cifras de cifras de césar, como numa matriz, onde a coordenada de linhas pertence ao primeiro caractere do *Texto e a coluna pertence ao caractere da palavra *Chave
+                   The Vigenère cypher is a polialfabetic substitution cypher based on a series of Caesar Cyphers.
+                                      This encrypting form uses 26 Caesar Cyphers in a matrix
 
- O programa funciona pedindo ao usuário uma string a ser cifrada, uma chave para encriptar o texto e retorna o texto encriptado. 
+                  The program asks a string to be cyphered and a key to define the shift, and returns the crypt-text.
