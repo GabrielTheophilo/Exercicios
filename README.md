@@ -17,6 +17,7 @@
    - [Recursive Factorial](https://github.com/GabrielTheophilo/Exercicios/tree/main/fatorial_recursive)
    - [Prime](https://github.com/GabrielTheophilo/Exercicios/tree/main/prime)
    - [PI number generating algorithms](https://github.com/GabrielTheophilo/Exercicios/tree/main/Pi)
+   - [Two Sum Problem]()
 
 4. [Sorting algorithms](https://en.wikipedia.org/wiki/Sorting_algorithm):
    - [Bubblesort](https://github.com/GabrielTheophilo/Exercicios/tree/main/bubblesort)
