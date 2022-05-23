@@ -1,6 +1,4 @@
 #include <iostream>
-
-
 void swap(int &a, int &b){
     int aux = a;
     a = b;
@@ -16,11 +14,9 @@ int main(){
         for(int j = 0;j<n;j++){
             if(arr[j]>arr[minim]){
                 minim = j;
-                
             }
             swap(arr[minim], arr[i]);
         }
-        
     }
     for(int i = 0;i<n;i++){
         std::cout << arr[i] << std::endl;
