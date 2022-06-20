@@ -1,9 +1,9 @@
-def fat(n)
-  if n==0 || n==1
+def fatorial(fatorialInstance)
+  if fatorialInstance==0 || fatorialInstance==1
     1
   else
-  n*fat(n-1)
+  fatorialInstance*fatorial(fatorialInstance-1)
 end
 end
 
-puts fat(5)
+puts fatorial(5)
