@@ -4,17 +4,17 @@
 
 int main(){
     char plaintext[1024];
-    printf("Insira o texto a ser codificado: ");
+    printf("Insert the text to be coded: ");
     scanf("%s", &plaintext);
-    int a = strlen(plaintext);
-    char K[1024] = "";
-    int i = 0;
-    for(i;i<a;i++){
-        int b = plaintext[i];
-        int shift = b%97;
+    int strLen = strlen(plaintext);
+    char cypheredText[1024] = "";
+    
+    for(int i=0;i<strLen;i++){
+        int plainChar = plaintext[i];
+        int shift = plainChar%97;
         int newInt = 122-shift;
-        char C = newInt;
-        K[i] += C;
-        printf("%c", K[i]);
+        char cipheredChar = newInt;
+        cypheredText[i] += cipheredChar;
+        printf("%c", cypheredText[i]);
     }
 }
