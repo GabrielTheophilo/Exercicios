@@ -8,14 +8,14 @@ public class linear {
 		boolean found = false;
 		for(int i = 0;i<10;i++) {
 			if(arr[i]==n) {
-				System.out.println("Encontrado no índice "+n);
+				System.out.println("Found on index "+n);
 				found = true;
 				break;
 			}
 			
 		}
 		if(!found) {
-			System.out.println("Não encontrado");
+			System.out.println("Not found");
 		}
 		
 		
