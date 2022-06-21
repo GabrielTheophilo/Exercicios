@@ -6,16 +6,16 @@
 using namespace std;
 
 template<class T>
-T BuscaBinaria(const T arr[], int TamanhoArr, const T& chave){
-    int baixo = 0, meio, alto = TamanhoArr-1;
-    while(baixo<alto){
-        meio = (baixo+alto)/2;
-        if(chave<arr[meio]){
-            alto = meio -1;
-        }else if(chave>arr[meio]){
-            baixo = meio+1;
+T BinarySearch(const T arr[], int SizeArr, const T& key){
+    int low = 0, mid, high = SizeArr-1;
+    while(low<high){
+        mid = (low+high)/2;
+        if(key<arr[mid]){
+            high = mid -1;
+        }else if(key>arr[mid]){
+            low = mid+1;
         }else{
-            return meio;
+            return mid;
         }
     }
     return -1;
@@ -26,14 +26,14 @@ int main()
 {
     int arr[10] ={0,14,22,31,40,49,53,76,89,100};
     
-    int chave = 14;
+    int key = 14;
     int size = *(&arr + 1) - arr; 
     
-    int k = BuscaBinaria(arr,size, chave);
+    int k = BinarySearch(arr,size, key);
     if(k!=-1){
-        cout << "Encontrado no índice: " << k+1;
+        cout << "Found on index: " << k+1;
     }else{
-        cout << "Não encontrado na lista";
+        cout << "Not found on the list";
     }
     return 0;
 }
